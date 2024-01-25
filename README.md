@@ -44,10 +44,18 @@ Change settings as needed.
 ## Setup on Host PC
 Enter rocket home
 ```
-cd esp
-cd esp-idf
+cd esp/esp-idf
 . ./export.sh
 ```
 ![image](https://github.com/riverdale-soc/sender/assets/68623356/abcd5f1d-62a4-45fc-888b-ffed544a2bd6)
+
+
+```
+cd projects/sender
+idf.py build ### TO BUILD THE PROJECT
+idf.py menuconfig ### TO CONFIGURE PROJECT
+idf.py build flash monitor ### TO COMPILE FLASH AND MONITOR SERIAL CONSOLE OF TARGET
+```
+
 
 
