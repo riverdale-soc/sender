@@ -14,10 +14,10 @@ The default GPIOs used are the following:
 
 <table>
 <tr align="middle">
-<th bgcolor=#ffffcc>Signal</th> <td>Handshake</td> <td>MOSI</td> <td>MISO</td> <td>SCLK</td> <td>CS</td>
+<th bgcolor=#ffffcc>Signal</th>  <td>MOSI</td> <td>MISO</td> <td>SCLK</td> <td>CS</td>
 </tr>
 <tr align="middle">
-<th bgcolor=#ffffcc>Pin</th> <td>GPIO2</td> <td>GPIO12</td> <td>GPIO13</td> <td>GPIO15</td> <td>GPIO14</td>
+<th bgcolor=#ffffcc>Pin</th> <td>GPIO12</td> <td>GPIO13</td> <td>GPIO15</td> <td>GPIO14</td>
 </tr>
 </table>
 
