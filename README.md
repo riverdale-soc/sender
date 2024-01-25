@@ -8,7 +8,7 @@ Once connected and flashed, the spi master and spi slave will communicate with e
 
 
 ### Connection
-For different chip and host used, the connections may be different. Here show a example diagram of hardware connection, you can freely change the GPIO settings by editing defines in the top of `main/app_main.c` in the master/slave source code. and change the hardware relatively.
+You can freely change the GPIO settings by editing defines in the top of `main/app_main.c` in the master/slave source code. and change the hardware relatively.
 
 The default GPIOs used are the following:
 
