@@ -1,0 +1,26 @@
+menu "SPI Master Configuration"
+
+    config SPI_MASTER_FREQ
+        int "SPI Master Frequency"
+        range 100000  25000000 if IDF_TARGET_ESP32 || IDF_TARGET_ESP32S3
+        default 5000000 if IDF_TARGET_ESP32 || IDF_TARGET_ESP32S3
+        range 100000 25000000
+        default 5000000
+        help
+            SPI Master SCLK Frequency in Hz
+
+    config TEST_MODE
+        int "Test Function to use"
+        range 0 2
+        default 0
+        help
+            SPI Test Mode: 0 for loopback test, 1 for write test, 2 for read test
+
+    config LOOPBACK_BUF_SIZE
+        int "Size of Loopback Buffer Size in bytes"
+        range 1 1024
+        default 10
+        help
+            Buffer size for loopback test
+
+endmenu
