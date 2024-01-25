@@ -55,6 +55,7 @@ cd projects/sender
 idf.py build ### TO BUILD THE PROJECT
 idf.py menuconfig ### TO CONFIGURE PROJECT
 idf.py build flash monitor ### TO COMPILE FLASH AND MONITOR SERIAL CONSOLE OF TARGET
+idf.py -h ### FOR HELP ON IDF.PY UTILITY
 ```
 
 
