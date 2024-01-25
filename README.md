@@ -39,3 +39,15 @@ Change settings as needed.
 * CPHA = 0
 * Speed = 5Mhz
 * Test = Loopback
+
+
+## Setup on Host PC
+Enter rocket home
+```
+cd esp
+cd esp-idf
+. ./export.sh
+```
+![image](https://github.com/riverdale-soc/sender/assets/68623356/abcd5f1d-62a4-45fc-888b-ffed544a2bd6)
+
+
